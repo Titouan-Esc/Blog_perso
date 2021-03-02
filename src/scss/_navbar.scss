@@ -1,0 +1,9 @@
+nav {
+  height: 15vh;
+  @include flex_box(row, space-around, center);
+  background-color: $color_three;
+
+  p {
+    font-size: 20px;
+  }
+}
