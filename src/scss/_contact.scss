@@ -1,0 +1,9 @@
+.formulaire {
+  height: 85vh;
+  @include flex_box(row, center, center);
+
+  form {
+    height: 50vh;
+    @include flex_box(column, space-around, center);
+  }
+}
