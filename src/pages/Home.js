@@ -1,8 +1,12 @@
+import React, { useState, useEffect } from 'react';
+import Post from '../components/Post';
+
 const Home = () => {
+    const [blogs, setBlogs] = useState([])
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <main>
+            <Post post={blogs}/>
+        </main>
     )
 }
 
